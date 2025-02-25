@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CC223 Web App Pokémon Names</title>
+    <link rel="stylesheet" href="style.css"></link>
+    <link rel="icon" type="image/x-icon" href="pikachu.png"></link>
+  </head>
+
+  <body>
+    <h1 class="center aura-text">Pokémon Fetcher</h1>
+
+    <div id="fetch" class="center">
+    <input type="text" id="name" onfocus="this.value=''" value="Enter Pokémon name">
+    <button onclick="fetchData()">Fetch</button>
+    </div>
+
+    <div id="sprites" class="centerDiv">
+      <div class="inline-block">
+        <img src="" id="frontDefault" style="display: none" height="128">
+      </div>
+      <div class="inline-block">
+        <img src="" id="backDefault" style="display: none" height="128">
+      </div>
+      <div class="inline-block">
+        <img src="" id="frontFemale" style="display: none" height="128">
+      </div>
+      <div class="inline-block">
+        <img src="" id="backFemale" style="display: none" height="128">
+      </div>
+      <div class="inline-block">
+        <img src="" id="frontShiny" style="display: none" height="128">
+      </div>
+      <div class="inline-block">
+        <img src="" id="backShiny" style="display: none" height="128">
+      </div>
+      <div class="inline-block">
+        <img src="" id="frontShinyFemale" style="display: none" height="128">
+      </div>
+      <div class="inline-block">
+        <img src="" id="backShinyFemale" style="display: none" height="128">
+      </div>
+    </div>
+
+    <div id="info" class="centerDiv">
+      <div class="aura-text">
+        <p>Base Experience:</p>
+        <div class="aura-text">
+          <div id="baseExperience"></div>
+          <br>
+          <p>Height:</p>
+          <div id="height"></div>
+          <br>
+          <p>Weight:</p>
+          <div id="weight"></div>
+          <br>
+          <p>ID:</p>
+          <div id="id"></div>
+          <br>
+          <p>HP:</p>
+          <div id="hp"></div>
+          <br>
+          <p>Attack:</p>
+          <div id="attack"></div>
+          <br>
+          <p>Defense:</p>
+          <div id="defense"></div>
+          <br>
+          <p>Special Attack:</p>
+          <div id="specialAttack"></div>
+          <br>
+          <p>Special Defense:</p>
+          <div id="specialDefense"></div>
+          <br>
+          <p>Speed:</p>
+          <div id="speed"></div>
+        </div>
+      <div id="total"></div>
+    </div>
+
+    <script src = "app.js"></script>
+  </body>
+</html>

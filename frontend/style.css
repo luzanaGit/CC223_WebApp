@@ -1,0 +1,43 @@
+body
+{
+  background-color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 135vh;
+}
+
+
+h1, b, div
+{
+  color: #FFFFFF;
+}
+
+.center
+{
+  text-align: center;
+}
+
+.centerDiv
+{
+  width: 200;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.inline-block
+{
+  display: inline-block;
+}
+
+.aura-text
+{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 0 0 30px rgba(0, 0, 0, 100), 
+               0 0 30px rgba(0, 0, 0, 100), 
+               0 0 30px rgba(0, 0, 0, 100);
+}
